@@ -1,0 +1,387 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+	
+        <title>Glossary</title>
+	<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b6906498-b3a6-460f-969b-0c6645fe193d</md:uuid>
+</metadata>
+	<content>
+		<section id="alpha">
+			<title>Alphabet</title>
+			<para id="alphabet"><link target-id="adenine">A</link>  <link target-id="b">B</link>  <link target-id="centromere">C</link>  <link target-id="dna">D</link>  <link target-id="exon">E</link>  <link target-id="f">F</link>  <link target-id="gamete">G</link>  <link target-id="his">H</link>  <link target-id="ile">I</link>  <link target-id="j">J</link>  <link target-id="k">K</link>  <link target-id="leu">L</link>  <link target-id="meiosis">M</link>  <link target-id="nucleus">N</link>  <link target-id="o">O</link>  <link target-id="phe">P</link>  <link target-id="q">Q</link>  <link target-id="recombination">R</link>  <link target-id="ser">S</link>  <link target-id="telomere">T</link>  <link target-id="uracil">U</link>  <link target-id="val">V</link>  <link target-id="w">W</link> <link target-id="x">X</link>  <link target-id="y">Y</link>  <link target-id="z">Z</link>
+
+</para>
+		
+</section>
+	</content>
+	<glossary>
+		<definition id="adenine">
+			<term>ADENINE</term>
+			<meaning id="idm13836848">One of the four bases in <link target-id="dna">DNA</link> that make up the letters ATGC, adenine is the "A". The others are <link target-id="guanine">guanine</link>, <link target-id="cytosine">cytosine</link>, and <link target-id="thymine">thymine</link>. Adenine always pairs with thymine. <link url="http://www.genome.gov/glossary.cfm?key=adenine">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="ala">
+			<term>ALA (ALANINE)(A)</term>
+			<meaning id="idm5225168">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="amino_acids">
+			<term>AMINO ACIDS</term>
+			<meaning id="idm4619072">A group of 20 different kinds of small molecules that link together in long chains to form <link target-id="protein">proteins</link>. Often referred to as the "building blocks" of proteins. <link url="http://www.genome.gov/glossary.cfm?key=amino%20acids">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="anaphase">
+			<term>ANAPHASE</term>
+			<meaning id="idm4231632">the stage of meiosis or mitosis when chromosomes move toward opposite ends of the nuclear spindle. <link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="arg">
+			<term>ARG (ARGININE)(R)</term>
+			<meaning id="idm114288">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="asn">
+			<term>ASN (ASPARAGINE)(N)</term>
+			<meaning id="idm616784">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="asp">
+			<term>ASP (ASPARTIC ACID)(D)</term>
+			<meaning id="idm5172272">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="asx">
+			<term>ASX (ASPARAGINE OR ASPARTIC ACID)(B)</term>
+			<meaning id="idm3972848">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+
+<definition id="base_pair">
+			<term>BASE PAIR</term>
+			<meaning id="idm13005088">Two bases which form a "rung of the <link target-id="dna">DNA</link> ladder." A DNA <link target-id="nucleotide">nucleotide</link> is made of a molecule of sugar, a molecule of phosphoric acid, and a molecule called a base. The bases are the "letters" that spell out the genetic code. In DNA, the code letters are A, T, G, and C, which stand for the chemicals <link target-id="adenine">adenine</link>, <link target-id="thymine">thymine</link>, <link target-id="guanine">guanine</link>, and <link target-id="cytosine">cytosine</link>, respectively. In base pairing, adenine always pairs with thymine, and guanine always pairs with cytosine.
+ <link url="http://www.genome.gov/glossary.cfm?key=base%20pair">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+                <definition id="centromere">
+			<term>CENTROMERE</term>
+			<meaning id="idm12828400">The constricted region near the center of a human <link target-id="chromosome">chromosome</link>. This is the region of the chromosome where the two sister <link target-id="chromatid">chromatids</link> are joined to one another. <link url="http://www.genome.gov/glossary.cfm?key=centromere">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="codon">
+			<term>CODON</term>
+			<meaning id="idm3612960">Three bases in a <link target-id="dna">DNA</link> or <link target-id="rna">RNA</link> sequence which specify a single <link target-id="amino_acids">amino acid</link>. <link url="http://www.genome.gov/glossary.cfm?key=codon">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+
+		<definition id="cdna">
+			<term>COMPLEMENTARY DNA (CDNA)</term>
+			<meaning id="idm5449040">a single-stranded <link target-id="dna">DNA</link>  synthesized from a mature <link target-id="mrna">mRNA</link>  template. cDNA is often used to clone eukaryotic <link target-id="gene">genes</link>  in prokaryotes.
+ <link url="http://en.wikipedia.org/wiki/CDNA">(from Wikipedia)</link></meaning>
+		</definition>
+
+
+		<definition id="chromatid">
+			<term>CHROMATID</term>
+			<meaning id="idm6546608">one of two identical strands into which a <link target-id="chromosome">chromosome</link> splits during <link target-id="mitosis">mitosis</link>. <link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="chromatin">
+			<term>CHROMATIN (CHROMATIN GRANULE)</term>
+			<meaning id="idm12834688">the readily stainable substance of a cell <link target-id="nucleus">nucleus</link> consisting of <link target-id="dna">DNA</link> and <link target-id="rna">RNA</link> and various <link target-id="protein">proteins</link>; during <link target-id="mitosis">mitotic</link> division the chromatin condenses into <link target-id="chromosome">chromosomes</link><link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="chromosome">
+			<term>CHROMOSOME</term>
+			<meaning id="idp1186720">One of the threadlike "packages" of <link target-id="gene">genes</link> and other <link target-id="dna">DNA</link> in the <link target-id="nucleus">nucleus</link> of a cell. Different kinds of organisms have different numbers of chromosomes. Humans have 23 pairs of chromosomes, 46 in all: 44 autosomes and two sex chromosomes. Each parent contributes one chromosome to each pair, so children get half of their chromosomes from their mothers and half from their fathers. <link url="http://www.genome.gov/glossary.cfm?key=chromosome">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="cluster">
+			<term>CLUSTER (GENE CLUSTER)</term>
+			<meaning id="idm7468368">A set of closely related <link target-id="gene">genes</link> that code for the same or similar <link target-id="protein">proteins</link> and which are usually grouped together on the same <link target-id="chromosome">chromosome</link>.
+ <link url="http://biotech.icmb.utexas.edu/search/dict-search.mhtml">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="covalent_bond">
+			<term>COVALENT BOND</term>
+			<meaning id="idp2773824">A bond between two or more atoms that is provided by electrons that travel between the atoms' <link target-id="nucleus">nuclei</link>,  holding them together but keeping them a stable distance apart. 
+<link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+                 <definition id="crossing_over">
+			<term>CROSSING OVER</term>
+			<meaning id="idm1092032">The breaking during <link target-id="meiosis">meiosis</link> of one maternal and one paternal <link target-id="chromosome">chromosome</link>, the exchange of corresponding sections of <link target-id="dna">DNA</link>, and the rejoining of the chromosomes. This process can result in an exchange of alleles between chromosomes. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+                <definition id="crosslinkig">
+			<term>CROSSLINKING</term>
+			<meaning id="idm4770064">The linking of two strands of DNA by <link target-id="covalent_bond">covalent bonds </link> (as opposed to the normal hydrogen bonds between <link target-id="base_pair">base pairs</link> ), which can occur by exposure to X-rays.
+<link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+                <definition id="cys">
+			<term>CYS (CYSTEINE)(C)</term>
+			<meaning id="idp1350608">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="cytoplasm">
+			<term>CYTOPLASM</term>
+			<meaning id="idm537200">All the contents of a cell, including the plasma membrane, but not including the <link target-id="nucleus">nucleus</link>. <link url="http://www.ucmp.berkeley.edu/glossary/glossary.html">(from UCMP Glossary)</link></meaning>
+		</definition>
+		<definition id="cytosine">
+			<term>CYTOSINE</term>
+			<meaning id="idm13277232">One of the four bases in <link target-id="dna">DNA</link> that make up the letters ATGC, cytosine is the "C". The others are <link target-id="adenine">adenine</link>, <link target-id="guanine">guanine</link>, and <link target-id="thymine">thymine</link>. Cytosine always pairs with <link target-id="guanine">guanine</link>. <link url="http://www.genome.gov/glossary.cfm?key=cytosine">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="dna">
+			<term>DNA </term>
+			<meaning id="idm12400">The chemical inside the <link target-id="nucleus">nucleus</link> of a cell that carries the genetic instructions for making living organisms. <link url="http://www.genome.gov/glossary.cfm?key=deoxyribonucleic%20acid%20%28DNA%29">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+		<definition id="microarray">
+			<term>DNA MICROARRAY (DNA CHIP)</term>
+			<meaning id="idp3178288">a piece of glass or plastic on which single-stranded pieces of <link target-id="dna">DNA</link> have been affixed in a microscopic array.
+
+ <link url="http://en.wikipedia.org/wiki/DNA_microarray">(from Wikipedia)</link></meaning>
+		</definition>
+		<definition id="enhancer">
+			<term>ENHANCER</term>
+			<meaning id="idm5011968">a short region of <link target-id="dna">DNA</link> which can be bound with  <link target-id="protein">proteins</link> (namely, the trans-acting factors, much like a set of transcription factors) to enhance transcription levels of nearby genes (hence the name) in a gene-cluster.
+<link url="http://en.wikipedia.org/wiki/Enhancer">(from Wikipedia)</link></meaning>
+		</definition>
+
+                <definition id="exon">
+			<term>EXON</term>
+			<meaning id="idm40880">The region of a <link target-id="gene">gene</link> that contains the code for producing the gene's <link target-id="protein">protein</link>. Each <link target-id="exon">exon</link> codes for a specific portion of the complete <link target-id="protein">protein</link>. In some species (including humans), a <link target-id="gene">gene's</link> exons are separated by long regions of <link target-id="dna">DNA</link> (called introns or sometimes "junk DNA") that have no apparent function. <link url="http://www.genome.gov/glossary.cfm?key=exon">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+                <definition id="expression">
+			<term>EXPRESSION (GENE EXPRESSION)</term>
+			<meaning id="idm4077648">The process by which a <link target-id="gene">gene's</link> coded information is converted into the structures present and operating in the cell. Expressed genes include those that are <link target-id="transcription">transcribed</link> into <link target-id="mrna">mRNA</link> and then translated into <link target-id="protein">protein</link> and those that are transcribed into <link target-id="rna">RNA</link> but not translated into protein.
+ <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+
+                <definition id="gamete">
+			<term>GAMETE</term>
+			<meaning id="idm4402368">Mature male or female reproductive cell (sperm or ovum) with a haploid set of <link target-id="chromosome">chromosomes</link> (23 for humans). <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="gene">
+			<term>GENE</term>
+			<meaning id="idm5496480">The functional and physical unit of heredity passed from parent to offspring. Genes are pieces of <link target-id="dna">DNA</link>, and most genes contain the information for making a specific <link target-id="protein">protein</link>. <link url="http://www.genome.gov/glossary.cfm?key=gene">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="genome">
+			<term>GENOME</term>
+			<meaning id="idm131408">All the <link target-id="dna">DNA</link> contained in an organism or a cell, which includes both the <link target-id="chromosome">chromosomes</link> within the <link target-id="nucleus">nucleus</link> and the DNA in mitochondria. 
+<link url="http://www.genome.gov/glossary.cfm?key=genome">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+
+
+
+		<definition id="genetic_map">
+			<term>GENETIC MAP (LINKAGE MAP)</term>
+			<meaning id="idm14404224">a  <link target-id="chromosome">chromosome</link>  map of a species that shows the position of its known 
+ <link target-id="gene">genes</link> and/or markers relative to each other, rather than as specific physical points on each chromosome.
+ <link url="http://www.genome.gov/glossary.cfm?key=genetic%20map">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+
+                <definition id="gln">
+			<term>GLN (GLUTAMINE)(Q)</term>
+			<meaning id="idp3628192">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="glu">
+			<term>GLU (GLUTAMIC ACID)(E)</term>
+			<meaning id="idm1390864">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="glx">
+			<term>GLX (GLUTAMINE OR GLUTAMIC ACID)(Z)</term>
+			<meaning id="idm3720688">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+		<definition id="gly">
+			<term>GLY (GLYCINE)(G)</term>
+			<meaning id="idm3275136">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="guanine">
+			<term>GUANINE</term>
+			<meaning id="idm6776928">One of the four bases in <link target-id="dna">DNA</link> that make up the letters ATGC, guanine is the "G". The others are <link target-id="adenine">adenine</link>, <link target-id="cytosine">cytosine</link>, and <link target-id="thymine">thymine</link>. Guanine always pairs with <link target-id="cytosine">cytosine</link>. <link url="http://www.genome.gov/glossary.cfm?key=guanine">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="his">
+			<term>HIS (HISTIDINE)(H)</term>
+			<meaning id="idm1804176">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+
+		<definition id="hybridization">
+			<term>HYBRIDIZATION</term>
+			<meaning id="idm1783216">A genetics lab technique used to identify which colonies of bacteria on a plate contain a particular sequence of 
+<link target-id="dna">DNA</link> or a particular <link target-id="gene">gene</link>. The technique involves pressing a nylon or nitrocellulose membrane onto the plate so that each colony contributes a small smudge of itself to the membrane, then treating the membrane with chemicals and heat, then washing the membrane with a labeled probe to find the specific DNA sequence. The smudges which are indicated by the probe are then compared back to the colonies on the plate. 
+<link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+
+                <definition id="ile">
+			<term>ILE (ISOLEUCINE)(I)</term>
+			<meaning id="idm6053888">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="intron">
+			<term>INTRON</term>
+			<meaning id="idm3996496">A noncoding sequence of <link target-id="dna">DNA</link> that is initially copied into <link target-id="rna">RNA</link> but is cut out of the final <link target-id="rna">RNA</link> transcript. <link url="http://www.genome.gov/glossary.cfm?key=intron">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="in_situ_hybridization">
+			<term>IN SITU HYBRIDIZATION</term>
+			<meaning id="idm1432576">The base pairing of a sequence of <link target-id="dna">DNA</link>  to metaphase <link target-id="chromosome">chromosomes</link> on a microscope slide.
+<link url="http://www.genome.gov/glossary.cfm?key=in%20situ%20hybridization">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+
+
+
+
+		<definition id="leu">
+			<term>LEU (LEUCINE)(L)</term>
+			<meaning id="idp317136">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="lys">
+			<term>LYS (LYSINE)(K)</term>
+			<meaning id="idm5574432">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="meiosis">
+			<term>MEIOSIS</term>
+			<meaning id="idm1140016">The process of two consecutive cell divisions in the diploid progenitors of sex cells. Meiosis results in four rather than two daughter cells, each with a haploid set of <link target-id="chromosome">chromosomes</link>. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="met">
+			<term>MET (METHIONINE)(M)</term>
+			<meaning id="idm1082368">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+		<definition id="metaphase">
+			<term>METAPHASE</term>
+			<meaning id="idm5724400">The phase of <link target-id="mitosis">mitosis</link>, or cell division, when the <link target-id="chromosome">chromosomes</link> align along the center of the cell. Because metaphase chromosomes are highly condensed, scientists use these chromosomes for <link target-id="gene">gene</link> mapping and identifying chromosomal aberrations. <link url="http://www.genome.gov/glossary.cfm?key=metaphase">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="mitosis">
+			<term>MITOSIS</term>
+			<meaning id="idm7867216">The process of nuclear division in cells that produces daughter cells that are genetically identical to each other and to the parent cell. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="mrna">
+			<term>MRNA</term>
+			<meaning id="idm7213360">Template for <link target-id="protein">protein</link> synthesis. Each set of three bases, called <link target-id="codon">codons</link>, specifies a certain protein in the sequence of <link target-id="amino_acids">amino acids</link> that comprise the <link target-id="protein">protein</link>. The sequence of a strand of <link target-id="mrna">mRNA</link> is based on the sequence of a complementary strand of <link target-id="dna">DNA</link>. <link url="http://www.genome.gov/glossary.cfm?key=messenger%20rna%20%28mrna%29">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+
+		<definition id="northern_blot">
+			<term>NORTHERN BLOT</term>
+			<meaning id="idm6705040">A technique used to identify and locate  <link target-id="mrna">mRNA</link> sequences that are complementary to a piece of  <link target-id="dna">DNA</link> called a probe. 
+ <link url="http://www.genome.gov/glossary.cfm?key=northern%20blot">(from National Human Genome Research Institute)</link>.</meaning>
+		</definition>
+                <definition id="nucleotide">
+			<term>NUCLEOTIDE</term>
+			<meaning id="idm12975696">One of the structural components, or building blocks, of <link target-id="dna">DNA</link> and <link target-id="rna">RNA</link>. A nucleotide consists of a base (one of four chemicals: <link target-id="adenine">adenine</link>, <link target-id="thymine">thymine</link>, <link target-id="guanine">guanine</link>, and <link target-id="cytosine">cytosine</link>) plus a molecule of sugar and one of phosphoric acid.
+ <link url="http://www.genome.gov/glossary.cfm?key=nucleotide">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+                <definition id="nucleus">
+			<term>NUCLEUS</term>
+			<meaning id="idm6976784">The central cell structure that houses the <link target-id="chromosome">chromosomes</link>. <link url="http://www.genome.gov/glossary.cfm?key=nucleus">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+                <definition id="oligo">
+			<term>OLIGO</term>
+			<meaning id="idm914352">Oligonucleotide, short sequence of single-stranded <link target-id="dna">DNA</link> or <link target-id="rna">RNA</link>. Oligos are often used as probes for detecting complementary DNA or RNA because they bind readily to their complements.
+<link url="http://www.genome.gov/glossary.cfm?key=oligo">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+                <definition id="phe">
+			<term>PHE (PHENYLALANINE)(F)</term>
+			<meaning id="idm7197696">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link></meaning>
+		</definition>
+                <definition id="polymer">
+			<term>POLYMER</term>
+			<meaning id="idm7068064">A polymer is formed from the fusion of two monomers which join completely without losing any small molecules. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+
+                <definition id="polypeptide">
+			<term>POLYPEPTIDE</term>
+			<meaning id="idp90848">A <link target-id="protein">protein</link> or part of a <link target-id="protein">protein</link> made of a chain of <link target-id="amino_acids">amino acids</link> joined by a peptide bond. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="pro">
+			<term>PRO (PROLINE)(P)</term>
+			<meaning id="idm4370320">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+
+                <definition id="promoter">
+			<term>PROMOTER</term>
+			<meaning id="idm148016">a <link target-id="dna">DNA</link> sequence that enables a <link target-id="gene">gene</link> to be <link target-id="transcription">transcribed</link>. The promoter is recognized by <link target-id="rna">RNA</link> polymerase, which then initiates transcription.
+<link url="http://en.wikipedia.org/wiki/Promoter">(from Wikipedia)</link>.</meaning>
+		</definition>
+                <definition id="prophase">
+			<term>PROPHASE</term>
+			<meaning id="idm7629888">the first stage of <link target-id="meiosis">meiosis</link></meaning>
+			<meaning id="idm3007360">the first stage of <link target-id="mitosis">mitosis</link><link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="protein">
+			<term>PROTEIN</term>
+			<meaning id="idm7579296">A large complex molecule made up of one or more chains of <link target-id="amino_acids">amino acids</link>. Proteins perform a wide variety of activities in the cell. <link url="http://www.genome.gov/glossary.cfm?key=protein">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="recombination">
+			<term>RECOMBINATION</term>
+			<meaning id="idm6193456">The process by which progeny derive a combination of <link target-id="gene">genes</link> different from that of either parent. In higher organisms, this can occur by <link target-id="crossing_over">crossing over</link>. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="replication">
+			<term>REPLICATION</term>
+			<meaning id="idp41232">The process by which <link target-id="dna">DNA</link> copies itself before cell division. Unless mutation occurs, the new copy of <link target-id="dna">DNA</link> is identical to the original <link target-id="dna">DNA</link>. <link url="http://www.stanford.edu/group/hopes/sttools/gloss/r.html">(from HOPES)</link></meaning>
+		</definition>
+		<definition id="ribosome">
+			<term>RIBOSOME</term>
+			<meaning id="idp2248336">Cellular organelle that is the site of <link target-id="protein">protein</link> synthesis <link url="http://www.genome.gov/glossary.cfm?key=ribosome">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="rna">
+			<term>RNA</term>
+			<meaning id="idm15044816">A chemical similar to a single strand of <link target-id="dna">DNA</link>. In RNA, the letter U, which stands for <link target-id="uracil">uracil</link>, is substituted for <link target-id="thymine">T</link> in the genetic code. RNA delivers <link target-id="dna">DNA</link>'s genetic message to the <link target-id="cytoplasm">cytoplasm</link> of a cell where <link target-id="protein">proteins</link> are made. <link url="http://www.genome.gov/glossary.cfm?key=ribonucleic%20acid%20%28rna%29">(from National Human Genome Research Institute)<link url="http://www.genome.gov/glossary.cfm?key=ribonucleic%20acid%20%28rna%29"/></link></meaning>
+		</definition>
+		<definition id="ser">
+			<term>SER (SERINE)(S)</term>
+			<meaning id="idm13616880">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+
+		<definition id="southern_blot">
+			<term>SOUTHERN BLOT</term>
+			<meaning id="idp286400">A technique used to identify and locate 
+ <link target-id="dna">DNA</link> sequences which are complementary to another piece of DNA called a probe.
+ <link url="http://www.genome.gov/glossary.cfm?key=southern%20blot">(from National Human Genome Research Institute)</link>.</meaning>
+		</definition>
+		<definition id="splicing">
+			<term>SPLICING</term>
+			<meaning id="idm3035792">The joining of separate strands of 
+ <link target-id="dna">DNA</link> or  <link target-id="rna">RNA</link>.
+ <link url="http://en.wikipedia.org/wiki/Splicing">(from Wikipedia)</link>.</meaning>
+		</definition>
+
+
+
+                <definition id="telomere">
+			<term>TELOMERE</term>
+			<meaning id="idm12999120">The end of a <link target-id="chromosome">chromosome</link>. This specialized structure is involved in the <link target-id="replication">replication</link> and stability of linear <link target-id="dna">DNA</link> molecules. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml">(from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="telophase">
+			<term>TELOPHASE</term>
+			<meaning id="idm6465216">the final stage of <link target-id="meiosis">meiosis</link> when the <link target-id="chromosome">chromosomes</link> move toward opposite ends of the nuclear spindle</meaning>
+			<meaning id="idm935360">the final stage of <link target-id="mitosis">mitosis</link><link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="thr">
+			<term>THR (THREONINE)(T)</term>
+			<meaning id="idp85056">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+		<definition id="thymine">
+			<term>THYMINE</term>
+			<meaning id="idm1417584">One of the four bases in <link target-id="dna">DNA</link> that make up the letters ATGC, thymine is the "T". The others are <link target-id="adenine">adenine</link>, <link target-id="guanine">guanine</link>, and <link target-id="cytosine">cytosine</link>. Thymine always pairs with adenine.<link url="http://www.genome.gov/glossary.cfm?key=thymine"> (from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="transcription">
+			<term>TRANSCRIPTION</term>
+			<meaning id="idm4317376">the organic process whereby the <link target-id="dna">DNA</link> sequence in a <link target-id="gene">gene</link> is copied into <link target-id="mrna">mRNA</link>; the process whereby a base sequence of <link target-id="mrna">messenger RNA</link> is synthesized on a template of complementary <link target-id="dna">DNA</link><link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="tfactor">
+			<term>TRANSCRIPTION FACTOR</term>
+			<meaning id="idm3221456">a protein that binds <link target-id="dna">DNA</link> at a specific <link target-id="promoter">promoter</link> or
+<link target-id="enhancer">enhancer</link>  region or site, where it regulates <link target-id="transcription">transcription</link>. Transcription factors can be selectively activated or deactivated by other proteins, often as the final step in signal transduction.
+ <link url="http://en.wikipedia.org/wiki/Transcription_factor">(from Wikipedia)</link>.</meaning>
+		</definition>
+
+                <definition id="translation">
+			<term>TRANSLATION</term>
+			<meaning id="idm4055744">the process whereby genetic information coded in <link target-id="mrna">messenger RNA</link> directs the formation of a specific <link target-id="protein">protein</link> at a <link target-id="ribosome">ribosome</link> in the <link target-id="cytoplasm">cytoplasm</link>. <link url="http://wordnet.princeton.edu/index.shtml">(from WordNet)</link></meaning>
+		</definition>
+		<definition id="trna">
+			<term>TRNA</term>
+			<meaning id="idm1139440">A class of <link target-id="rna">RNA</link> having structures with triplet nucleotide sequences that are complementary to the triplet nucleotide coding sequences of <link target-id="mrna">mRNA</link>. The role of tRNAs in <link target-id="protein">protein</link> synthesis is to bond with <link target-id="amino_acids">amino acids</link> and transfer them to the <link target-id="ribosomes">ribosomes</link>, where proteins are assembled according to the genetic code carried by <link target-id="mrna">mRNA</link>. <link url="http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml"> (from Human Genome Project Information)</link></meaning>
+		</definition>
+		<definition id="trp">
+			<term>TRP TRYPTOPHAN)(W)</term>
+			<meaning id="idp223472">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+		<definition id="tyr">
+			<term>TYR (TYROSINE)(Y)</term>
+			<meaning id="idm3315616">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+		<definition id="uracil">
+			<term>URACIL</term>
+			<meaning id="idm6348912">One of the four bases in <link target-id="rna">RNA</link>. The others are <link target-id="adenine">adenine</link>, <link target-id="guanine">guanine</link>, and <link target-id="cytosine">cytosine</link>. Uracil replaces <link target-id="thymine">thymine</link>, which is the fourth base in <link target-id="dna">DNA</link>. Like <link target-id="thymine">thymine</link>, uracil always pairs with <link target-id="adenine">adenine</link>. <link url="http://www.genome.gov/glossary.cfm?key=uracil">(from National Human Genome Research Institute)</link></meaning>
+		</definition>
+		<definition id="val">
+			<term>VAL (VALINE)(V)</term>
+			<meaning id="idm4858448">One of the twenty naturally occurring <link target-id="amino_acids">amino acids</link>. <link url="http://biotech.icmb.utexas.edu/search/dict-search.html">(from BioTech Dictionary)</link>.</meaning>
+		</definition>
+	</glossary>
+</document>

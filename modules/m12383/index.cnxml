@@ -1,0 +1,55 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gene Networks</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>96c2b7aa-2a02-481f-bba1-5f55096cbc8b</md:uuid>
+</metadata>
+
+  <content>
+
+
+     <section id="sec1">
+           <title>Gene Networks.</title>
+
+           <para id="par1">A gene regulatory network (also called a GRN or <link url="http://www.doegenomestolife.org/science/generegulatorynetwork.shtml">genetic regulatory network,</link>) is a collection of DNA segments in a cell which interact with each other and with other substances in the cell, thereby governing the rates at which genes are transcribed into mRNA. Genes can be viewed as nodes in such a network, with input being proteins such as <link document="m12371" target-id="tfactor"> transcription factors</link>, and outputs being the level of gene expression. The node itself can also be viewed as a function which can be obtained by combining basic functions upon the inputs (in the Boolean network  these are boolean functions or gates computed using the basic AND OR and NOT gates in electronics). These functions have been interpreted as performing a kind information processing within cell which determine cellular behaviour. The basic drivers within cells are levels of some proteins, which determine both spatial (tissue related) and temporal (developmental stage) co-ordinates of the cell, as a kind of "cellular memory". The gene networks are only beginning to be understood, and it is a next step for biology to attempt to deduce the functions for each gene "node", to assist in modeling behaviour of a cell. Mathematical models of GRNs have been developed to allow predictions of the models to be tested. Various modeling techniques have been used, including boolean networks, Petri nets, Bayesian networks, and sets of differential equations. Conversely, techniques have been proposed for generating models of GRNs that best explain a set of time series observations.
+           </para>
+
+     </section>
+      <section id="sec2">
+
+                 <para id="par2">One gene can affect the expression of another gene by binding of the gene product of one gene to the promoter region of another gene. Looking at more than two genes, we refer to the regulatory network as the regulatory interactions between the genes. 
+If we have a large number of measurements of the expression level of a number of genes, we should be able to model or reverse engineer the regulatory network that controls their expression level. The problem can be attacked in two fundamentally different ways: using time-series data and using steady-state data of gene knockout. 
+
+                 </para>
+
+                 <para id="par3">GRNs act as analog biochemical computers to specify the identity and level of expression of groups of target genes. Central to this computation are DNA recognition sequences with which transcription factors associate. When active transcription factors associate with the promontory region of target genes, they can function to specifically repress (down-regulate) or induce (up-regulate) synthesis of the corresponding RNA. The immediate molecular output of a gene regulatory network is the constellation of RNAs and proteins encoded by network target genes. The resulting cellular outputs are changes in the structure, metabolic capacity, or behavior of the cell mediated by new expression of up-regulated proteins and elimination of down-regulated proteins.
+                 </para>
+                 <para id="par4">
+GRNs are remarkably diverse in their structure, but several basic properties are illustrated in the figure below <link target-id="fig1">(Figure1.)</link> 
+. In this example, two different signals converge on a single target gene where the cis-regulatory elements provide for an integrated output in response to the two inputs. Signal molecule A triggers the conversion of inactive transcription factor A (green oval) into an active form that binds directly to the target gene's cis-regulatory sequence. The process for signal B is more complex. Signal B triggers the separation of inactive B (red oval) from an inhibitory factor (yellow rectangle). B is then free to form an active complex that binds to the active A transcription factor on the cis-regulatory sequence. The net output is expression of the target gene at a level determined by the action of factors A and B. In this way, cis-regulatory DNA sequences, together with the proteins that assemble on them, integrate information from multiple signaling inputs to produce an appropriately regulated readout. A more realistic network might contain multiple target genes regulated by signal A alone, others by signal B alone, and still others by the pair of A and B. Co-regulated target genes often code for proteins that act together to build a specific cell structure or to effect a concerted change in cell function. For example, genes encoding components of the multiprotein proteasome machine (see The Machines of Life) are co-regulated at the RNA level. This was shown by microarray gene chip analyses in yeast cells, and each gene was found to possess a similar cis-regulatory DNA sequence that mediates binding of a particular transcription factor. Similarly, a bacterium may respond to a shortage of its preferred energy source by activating expression of genes whose protein products function in a biochemical pathway that allows it to use a different, more abundant source of energy.              
+             </para>
+
+                 <figure id="fig1"><media id="idp7429728" alt=""><image src="../../media/gene_net.gif" mime-type="image/gif"/></media>
+	<caption>The gene regulatory network.
+	             </caption>
+</figure>
+       </section>
+        <para id="par5">
+	   <note type="SEE ALSO" id="idp8603248"><label>SEE ALSO</label>
+         <link document="m12394" target-id="sec2">Boolean Networks
+         </link> 
+       </note>
+
+	   <note type="SEE ALSO" id="idp10313568"><label>SEE ALSO</label>
+         <link document="m12395" target-id="sec1">Probabilistic Boolean Networks
+         </link> 
+       </note>
+       <note type="see also" id="idp8266368"><label>See also</label>
+	<link document="m12395" target-id="sec2">Bayesian Networks</link>
+</note>
+
+
+	</para>
+
+
+  </content>
+  
+</document>

@@ -1,0 +1,214 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/">
+  <title>Probabilistic Boolean and Bayesian Networks</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5903e11a-3e6c-489e-b976-ebead6bf189d</md:uuid>
+</metadata>
+
+  <content>
+
+
+     <section id="sec1">
+           <title>Probabilistic Boolean Networks</title>
+    <para id="par1">
+In a Boolean network, each (target) gene is ‘predicted’ by several other genes by means of a Boolean function (predictor). Thus, after having inferred such a function from gene expression data, it could be concluded that if we observe the values of the predictive genes, we know, with full certainty, the value of the target gene. Conceptually, such an inherent determinism seems problematic as it assumes an environment with no uncertainty. However, the data that used for the inference exhibits uncertainty on several levels.
+    </para>   
+    <para id="par2">
+Another class model called Probabilistic Boolean Networks (PBNs) (Shmulevich <emphasis>et al.,</emphasis> 2002) shares the appealing properties of Boolean networks, but is able to cope with uncertainty, both in the data and the model selection. A model incorporates only a partial description of a physical system. This means that a Boolean function giving the next state of a variable is likely to be only partially accurate. 
+    </para>   
+    <para id="par3">
+The basic idea is to extend the Boolean network to accommodate more than one possible function for each node. Thus, to every node <emphasis>xi</emphasis>. , their corresponds a set <emphasis>Fi={ fj },j=1,..., l(i)</emphasis>, 
+Where each <emphasis>fj</emphasis> is a possible function determining the value of gene <emphasis>xi</emphasis> and <emphasis>l(i)</emphasis> is the number of possible functions for gene <emphasis>xi</emphasis>. A realization of the PBN at a given instant of time is determined by a vector of Boolean functions, where the ith element of that vector contains the predictor selected at that instant for gene <emphasis>xi</emphasis>. 
+In other words, the vector function <emphasis>fk:{0,1}^n</emphasis> mapps to <emphasis>{0,1}^n</emphasis> acts as a transition function (mapping) representing a possible realization of the entire PBN. Such functions are commonly referred to as multiple-output Boolean functions
+Each of the N possible realizations can be thought of as a standard
+Boolean network operates for one time step. In other words, at every state      <emphasis>x(t)</emphasis> belongs to <emphasis>{0,1}^n</emphasis>, one of the N Boolean networks is chosen and used
+to make the transition to the next state <emphasis>x(t+1)</emphasis> belongs to <emphasis>{0,1}^n</emphasis> . The probability
+<emphasis>Pi</emphasis> that the ith (Boolean) network or realization is selected can be easily
+expressed in terms of the individual selection probabilities <emphasis>Cj</emphasis> see (Shmulevich 
+<emphasis>et al.,</emphasis> 2002).   
+The dynamics of the PBN are essentially the same as for Boolean networks, but at any given point in time, the value of each node is determined by one of the possible predictors, chosen according to its corresponding probability.This can be interpreted by saying  that at any point in time, we have one out of N possible networks. The basic building block of a PBN is shown in the <link target-id="fig1">Figure1.</link>
+    </para>  
+                  <figure id="fig1"><title>AN EXAMPLE   </title>
+	<media id="idm5127680" alt=""><image src="../../media/net_net.gif" mime-type="image/gif"/></media>
+	<caption>
+A basic building block of a probabilistic Boolean network. A number of predictors share common inputs while their outputs are synthesized, in this case by random selection, into a single output. This type of structure is known as a synthesis filter bank in digital signal processing literature. The wiring diagram for the entire PBN would consist of n such building blocks.
+Although the ‘wiring’ of the inputs to each function is shown to be quite general, in practice, each function (predictor) has only a few input variables.
+
+
+                     </caption>
+</figure>
+     </section>
+     <section id="sec2">
+           <title>Bayesian Networks</title>
+           <para id="par4">
+The well-studied statistical tool, <term>Bayesian networks</term> (Friedman <emphasis>et al.,</emphasis>2000;  Pearl, 1988),  represent the dependence structure between multiple interacting quantities (e.g., expression levels of different genes). 
+Bayesian networks are a promising tool for analyzing gene expression patterns. First, they are particularly useful for describing processes composed of locally interacting components; that is, the value of each component directly depends on the values of a relatively small number of components. Second, statistical foundations for learning Bayesian networks from observations, and computational algorithms to do so, are well understood and have been used successfully in many applications. Finally, Bayesian networks provide models of causal influence: Although Bayesian networks are mathematically defined strictly in terms of probabilities and conditional independence statements, a connection can be made between this characterization and the notion of direct causal influence. (Heckerman<emphasis>et al.,</emphasis> 1999; Pearl and Verma, 1991; Spirtes <emphasis>et al.,</emphasis>1993). Although this connection depends on several assumptions that do not necessarily hold in gene expression data, the conclusions of Bayesian network analysis might be indicative of some causal connections in the data.
+
+           </para> 
+ 
+           <para id="par5">
+A Bayesian network (also known as causal probabilistic networks) is an annotated directed acyclic graph that encodes a joint probability distribution of a set of random variables <emphasis>X.</emphasis> Formally, a Bayesian network for <emphasis>X</emphasis> is a pair <emphasis>B=(G,Q)</emphasis>. The first component, <emphasis>G</emphasis>, is a directed acyclic graph (DAG) whose vertices correspond to the random variables <emphasis>x1, . . . , xn</emphasis>, and whose edges represent direct dependencies between the variables. The graph G encodes the following set of independence statements: each variable <emphasis>xi</emphasis> is independent of its nondescendants given its parents G. The second component of the pair, namely <emphasis>Q</emphasis>, represents the set of parameters that quantifies the network and describes a conditional distribution for each variable, given its parents in G. Together, these two components specify a unique distribution on <emphasis>x1, . . . , xn</emphasis>.
+ The graph G represents conditional independence assumptions that allow the joint distribution to be decomposed, economizing on the number of parameters. The graph G encodes the Markov Assumption:
+(Each variable Xi is independent of its nondescendants, given its parents in G.
+Given a Bayesian network, we might want to answer many types of questions that involve the joint probability (e.g., what is the probability of X = x given observation of some of the other variables?) or independencies in the domain (e.g., are X and Y independent once we observe Z?). The literature contains a suite of algorithms that can answer such queries efficiently by exploiting the explicit representation of structure (Jensen, 1996; Pearl, 1988).
+
+           </para>
+       </section>
+       <section id="sec3">
+           <title>Biological Example</title>
+
+           <para id="par6">
+Let apply the approach to the data of Spellman,(Spellman <emphasis>et al.,</emphasis> 1998). This data set contains 76 gene expression measurements of the mRNA levels of 6177 S. cerevisiae ORFs. These experiments measure six time series under different cell cycle synchronization methods. Spellman <emphasis>et al.,</emphasis> (1998) identified 800 genes whose expression varied over the different cell-cycle stages.
+In learning from this data, one treat each measurement as an independent sample from a distribution and do not take into account the temporal aspect of the measurement. Since it is clear that the cell cycle process is of a temporal nature, compensatation is done by introducing an additional variable denoting the cell cycle phase. This variable is forced to be a root in all the networks learned. Its presence allows one to model dependency of expression levels on the current cell cycle phase.3
+Two experiments were performed, one with the discrete multinomial distribution, the other with the linear Gaussian distribution. The learned features show that we can recover intricate structure even from such small data sets. It is important to note that a learning algorithm uses no prior biological knowledge nor constraints.
+All learned networks and relations are based solely on the information conveyed in the measurements themselves. These results are available at the following web page:
+<link url="http://www.cs.huji.ac.il/labs/compbio/expression">http://www.cs.huji.ac.il/labs/compbio/expression</link>.
+ The <link target-id="fig2">Figure2.</link> illustrates the graphical display of some results from this analysis.
+
+           </para>
+                 <figure id="fig2"><title>  SVS1 Gene Interaction Network   </title>
+	<media id="idp7843296" alt=""><image src="../../media/net_net_ex.gif" mime-type="image/gif"/></media>
+	<caption>The graph shows a local Bayesian network for the gene
+SVS1. The width (and color) of edges corresponds to the computed con. dence level. An edge is directed if there is a
+suf. ciently high con. dence in the order between the genes connected by the edge. This local map shows that CLN2 separates SVS1 from several other genes. Although there is a strong connection between CLN2 to all these genes, there are no other edges connecting them. This indicates that, with high con. dence, these genes are conditionally independent given the expression level of CLN2.
+
+
+                     </caption>
+</figure>
+
+        </section>
+     <section id="sec_1">
+        <para id="para_7">
+     </para>
+        </section>
+        <para id="par7">
+        <note type="back to" id="idp7596448"><label>Back to</label>
+
+         <link document="m12394" target-id="sec2">Boolean Networks
+         </link> 
+       </note>
+      
+     </para>
+
+
+  </content>
+
+              <bib:file>
+
+
+             <bib:entry id="friedman">
+    		<bib:article>
+    		  <bib:author>Friedman, N., Linial, M., Nachman, I..,  Pe’er, D. </bib:author>
+    		  <bib:title>Using Bayesian Networks to Analyze Expression Data</bib:title>
+    		  <bib:journal>Journal of Computational Biology </bib:journal>
+    		  <bib:year>2000</bib:year>
+                  <bib:volume>7</bib:volume>
+                  <bib:pages>601–620</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+             <bib:entry id="heckerman">
+    		<bib:article>
+    		  <bib:author>Heckerman, D., Meek, C., and Cooper, G. </bib:author>
+    		  <bib:title>A Bayesian approach to causal discovery</bib:title>
+    		  <bib:journal>in Cooper and Glymour</bib:journal>
+    		  <bib:year>1999</bib:year>
+                  <bib:pages>141–166</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+             <bib:entry id="jensen">
+    		<bib:article>
+    		  <bib:author>Jensen, F.V. </bib:author>
+    		  <bib:title>An introduction to Bayesian Networks</bib:title>
+    		  <bib:journal>University College London Press, London</bib:journal>
+    		  <bib:year>1996</bib:year>
+   		</bib:article>
+    	      </bib:entry>
+
+             <bib:entry id="pearl1">
+    		<bib:article>
+    		  <bib:author>Pearl, J. </bib:author>
+    		  <bib:title>Probabilistic Reasoning in Intelligent Systems</bib:title>
+    		  <bib:journal>Morgan Kaufmann, San Francisco</bib:journal>
+    		  <bib:year>1988</bib:year>
+     		</bib:article>
+    	      </bib:entry>
+
+
+
+             <bib:entry id="pearl2">
+    		<bib:article>
+    		  <bib:author>Pearl, J., and Verma, T.S. </bib:author>
+    		  <bib:title>A theory of inferred causation</bib:title>
+    		  <bib:journal>in Principles of Knowledge Representation and
+Reasoning: Proc. Second International Conference (KR ’91)
+</bib:journal>
+    		  <bib:year>1991</bib:year>
+    		  <bib:pages>441–452</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+    	      <bib:entry id="shmulevich1">
+    		<bib:article>
+    		  <bib:author>Shmulevich,I., Dougherty, E.R., Kim, S., Zhang, W.</bib:author>
+    		  <bib:title>Probabilistic
+Boolean Networks: A Rule-based Uncertainty Model for Gene Regulatory
+Networks
+</bib:title>
+    		  <bib:journal>Bioinformatics</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>18(2)</bib:volume>
+    		  <bib:pages>261-274</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+    	      <bib:entry id="shmulevich2">
+    		<bib:article>
+    		  <bib:author>Shmulevich,I., Dougherty, E.R., Zhang, W.</bib:author>
+    		  <bib:title>From Boolean to Probabilistic Boolean Networks
+as Models of Genetic Regulatory Networks
+</bib:title>
+    		  <bib:journal>Proceedings of the IEEE</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>90(11)</bib:volume>
+    		  <bib:pages>1778-1792</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+             <bib:entry id="spellman">
+    		<bib:article>
+    		  <bib:author>Spellman, P., Sherlock, G., Zhang, M., Iyer, V., Anders, K., Eisen, M., Brown, P., Botstein, D., and Futcher, B. </bib:author>
+    		  <bib:title>Comprehensive identification of cell cycle-regulated genes of the yeast Saccharomyces cerevisiae by microarray
+hybridization
+</bib:title>
+    		  <bib:journal>Mol. Biol. Cell </bib:journal>
+    		  <bib:year>1998</bib:year>
+                      <bib:volume>9</bib:volume>
+    		  <bib:pages>3273–3297</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+             <bib:entry id="spirtes">
+    		<bib:article>
+    		  <bib:author>Spirtes, P., Glymour, C., and Scheines, R. </bib:author>
+    		  <bib:title>Causation, Prediction, and Search</bib:title>
+    		  <bib:journal>Springer-Verlag, New York</bib:journal>
+    		  <bib:year>1993</bib:year>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+
+            </bib:file>
+
+
+
+ 
+
+  
+</document>

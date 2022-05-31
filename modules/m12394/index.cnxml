@@ -1,0 +1,344 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/">
+  <title>Boolean Networks</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a627fe7f-638e-4de6-b438-60866b9bd8ed</md:uuid>
+</metadata>
+
+  <content>
+     <section id="sec1">
+      <title>Introduction</title>
+    <para id="par1">
+A central goal of molecular biology is to understand the regulation of protein synthesis and its reactions to external and internal signals. All the cells in an organism carry the same genomic data, yet their protein makeup can be drastically different both temporally and spatially, due to regulation.
+Protein synthesis is regulated by many mechanisms at its different stages. These include mechanisms for controlling transcription initiation, RNA splicing, mRNA transport, translation initiation, post-translational modifications, and degradation of mRNA/protein. One of the main junctions at which regulation occurs is mRNA transcription. A major role in this machinery is played by proteins themselves that bind to regulatory regions along the DNA, greatly affecting the transcription of the genes they regulate.
+In recent years, technical breakthroughs in spotting hybridization probes and advances in genome sequencing efforts lead to development of DNA microarrays, which consist of many species of probes, either
+oligonucleotides or cDNA, that are immobilized in a predefined organization to a solid phase. By using DNA microarrays, researchers are now able to measure the abundance of thousands of mRNA targets simultaneously ( <link target-id="derisi">DeRisi et al.,1997</link>; Lockhart <emphasis>et al.,</emphasis>  1996; Wen <emphasis>et al.,</emphasis>  1998). Unlike classical experiments, where the expression levels of only a few genes were reported, DNA microarray experiments can measure all the genes of an organism, providing a “genomic” viewpoint on gene expression. As a consequence, this technology facilitates new experimental approaches for understanding gene expression and regulation (Iyer <emphasis>et al.,</emphasis> 1999; Spellman <emphasis>et al.,</emphasis> 1998).
+
+    </para>
+    <para id="par2">
+A central focus of genomic research concerns understanding the manner in which cells execute and control the enormous number of operations required for their function. Biological systems behave in an exceedingly parallel and extraordinarily integrated fashion. Feedback and damping are routine even for the most common activities. Thus, in this area of genomic biology, single gene perspectives are becoming increasingly limited for gaining insight into biological processes. Network applications are becoming increasingly important for making progress in our understanding of the manner in which genes and molecules collectively form a biological system and harnessing this understanding in educated intervention for correcting human diseases. Such approaches inevitably require computational and formal methods to process massive amounts of data, understand general principles governing the system under study, and make useful predictions about system behavior in the presence of known conditions. 
+There is a rather wide spectrum of approaches for modeling gene regulatory networks, each with its own assumptions, data requirements, and goals. The group of the most popular models includes: Boolean, Probabilistic Boolean and Bayesian networks.
+
+    </para> 
+  </section>
+  <section id="sec2">
+    <title>Boolean Networks</title>
+
+    <para id="par3">
+The Boolean network model, introduced by Kauffman (Kauffman, 1969, 1974; Kauffman and Glass, 1973)and recently developed by Shmulevich(Shmulevich, 2002),  has received the most attention, not only from the biology community, but also in physics. In this model, gene expression is quantized to only two levels: ON and OFF. The expression level (state) of each gene is functionally related to the expression states of some other genes, using logical rules. 
+A Boolean network <emphasis>G(V,F)</emphasis>  is defined by a set of nodes corresponding to genes <emphasis>V = {x1, . . . , xn}</emphasis> and a list of Boolean functions <emphasis>F = (f1, . . . , fn)</emphasis>. 
+The state of a node (gene) is completely determined by the values of other nodes at time t by means of underlying logical Boolean functions. The model is represented in the form of directed graph.
+Each <emphasis>xi</emphasis> represents the state (expression) of gene i, where <emphasis>xi=1</emphasis> represents the fact that gene i is expressed and <emphasis>xi=0</emphasis> means it is not expressed. The list of Boolean functions <emphasis>F</emphasis> represents the rules of regulatory interactions between genes. That is, any given gene transforms its inputs (regulatory factors that bind to it) into an output, which is the state or expression of the gene itself. The maximum connectivity of a Boolean network is defined by
+<emphasis>K= maxi (ki)</emphasis>. All genes are assumed to update synchronously in accordance with the functions assigned to them and this process is then repeated. The artificial synchrony simplifies computation while preserving the qualitative, generic properties of global network dynamics (Kauffman, 1993; Huang, 1999; Wuensche, 1998).
+
+    </para>  
+    <para id="par4">
+Below the example is presented. Consider a Boolean network consisting of 5 genes {x1, . . . , x5} with the corresponding Boolean functions given by the truth tables shown in <link target-id="fig1">Figure1.</link> 
+The maximum connectivity is K=3, although we allow some input variables to duplicate, essentially reducing the connectivity. 
+The dynamics of this Boolean network are shown in <link target-id="fig2">Figure2.</link>  Since there are 5 genes, there are 2^5 = 32 possible states that the network can be in.
+Each state is represented by a circle and the arrows between states show the transitions of the network according to the functions in Table 1., <link target-id="fig1">Figure1.</link>. It is easy to see that because of the inherent deterministic directionality in Boolean networks as well as only a finite number of possible states. 
+
+    </para>  
+                  <figure id="fig1">
+	<media id="idm4132544" alt=""><image src="../../media/bb_1.gif" mime-type="image/gif"/></media>
+	<caption>Truth tables of the functions in a Boolean network with 5 genes. The indices j1, j2, and j3 indicate the input connections for each of the functions.
+                     </caption>
+</figure>
+                 <figure id="fig2">
+	<media id="idm11354736" alt=""><image src="../../media/bb_2.gif" mime-type="image/gif"/></media>
+	<caption>The state-transition diagram for the Boolean network defined in table 1.<link target-id="fig1">(Figure1).</link>
+	</caption>
+</figure>
+
+    <para id="par5">
+
+In the context of Boolean networks as models of genetic regulatory networks, there is no doubt that the binary approximation of gene expression is an oversimplification (Huang, 1999). However, even though most biological phenomena manifest themselves in the continuous domain, they are often described in a binary logical language such as ‘on and off,’ ‘upregulated and downregulated’, and ‘responsive and nonresponsive.’
+There is a several examples showing that a Boolean formalism is meaningful in biology, in (Shmulevich and Zhang, 2002), one reasoned that if the genes, when quantized to only two levels (1 or 0), would not be informative in separating known sub-classes of tumors, then there would be little hope for Boolean modeling of realistic genetic networks based on gene expression data.
+
+    </para> 
+    <para id="par6">
+Fortunately, the results were very promising. By using binary gene expression data, generated via cDNA microarrays, and the Hamming distance as a similarity metric, a clear separation between different sub-types of gliomas as well as between different sarcomas was showed. This seems to suggest that a good deal of meaningful biological information, to the extent that it is contained in the measured continuous-domain gene expression data, is retained when it is binarized.
+    </para>
+  </section>
+  <section id="sec3">
+    <title>Biological Example</title>
+    <para id="par7">
+Below an example id presented, borrowed from (Shmulevich <emphasis>et al.,</emphasis>  2002), showing the logical representation of cell cycle regulation. This process of cellular growth and division is highly regulated. A disbalance in this process results in unregulated cell growth in diseases such as cancer. In order for cells to move from the G1 phase to the S phase, when the genetic material, DNA, is replicated for the daughter cells, a series of molecules such as cyclin E and cyclin dependent kinase 2 (cdk2) work together to phosphorylate the retinoblastoma (Rb) protein and inactivate it, thus releasing cells into the S phase. Cdk2/cyclin E is regulated by two switches: the positive switch complex called cdk activating kinase (CAK) and the negative switch p21/WAF1. The CAK complex can be composed of two gene products: cyclin H and cdk7. When cyclin H and cdk7 are present, the complex can activate cdk2/cyclin E. A negative regulator of cdk2/cyclin E is p21/WAF1, which in turn can be activated by p53.
+When p21/WAF1 binds to cdk2/cyclin E, the kinase complex is turned off (Gartel and Tyner, 1999). Further, p53 can inhibit cyclin H, a positive regulator of cyclin E/cdk2 (Schneider <emphasis>et al.,</emphasis>  1998).
+This negative regulation is an important defensive system in the cells.
+For example, when cells are exposed to mutagen, DNA damage occurs. It is to the benefit of cells to repair the damage before DNA replication so that
+the damaged genetic materials do not pass onto the next generation. Extensive amount of work has demonstrated that DNA damage triggers switches that turn on p53, which then turns on p21/WAF1. p21/WAF1 then inhibits cdk2/cyclin E, thus Rb becomes activated and DNA synthesis stops. As an extra measure, p53 also inhibits cyclin H, thus turning off the switch that turns on cdk2/cyclin E. Such delicate genetic switch networks in the cells are the basis for cellular homeostasis — the ability of an organism to maintain equilibrium.
+
+    </para>
+    <para id="par8">
+    For purposes of illustration, let consider a simplified diagram, shown in <link target-id="fig3">Figure3</link>, illustrating the effects of cdk7/cyclin H, cdk2/cyclin E, and p21/WAF1 on Rb. Thus, p53 and other known regulatory factors are not considered. While this diagram represents the above relationships from a pathway perspective, one may also represent the activity of Rb in terms of the other variables in a logic-based fashion. <link target-id="fig4">Figure4</link> contains a logic circuit diagram of the activity of Rb (‘on’ or ‘off’) as a Boolean function of four input variables: cdk7, cyclin H, cyclin E, and p21/WAF1. Note that cdk2 is shown to be completely determined by the values of cdk7 and cyclin H using the AND operation and thus, cdk2 is not an independent input variable. Also, in <link target-id="fig3">Figure3</link>, p21/WAF1 is shown to have an inhibitive effect on the cdk2/cyclin E complex, which in turn regulates Rb, while in <link target-id="fig4">Figure4</link>, we see that from a logic-based perspective, the value of p21/WAF1 works together with cdk2 and cyclin E to determine the value of Rb.
+    </para>
+                  <figure id="fig3">
+	<media id="idm10344448" alt=""><image src="../../media/bb_3.gif" mime-type="image/gif"/></media>
+	<caption>A diagram illustrating the cell cycle regulation example. Arrowed lines represent activation and lines with bars at the end represent inhibition.                      </caption>
+</figure>
+                 <figure id="fig4">
+	<media id="idm1770464" alt=""><image src="../../media/bb_4.gif" mime-type="image/gif"/></media>
+	<caption>The logic diagram describing the activity of retinoblastoma (Rb) protein in terms of 4 inputs: cdk7, cyclin H, cyclin E, and p21. The gate with inputs cdk7 and cyclin H is an AND gate, the gate with input p21/WAF1 is a NOT gate, and the gate whose output is Rb is a NAND (negated AND) gate.
+
+
+                     </caption>
+</figure>
+
+  </section>
+        <para id="par9">
+        <note type="see also:" id="idm2176512"><label>See also:</label>
+
+         <link document="m12395" target-id="sec1">Probabilistic Boolean Networks
+         </link> 
+       </note>
+       <note type="see also:" id="idm1260864"><label>See also:</label>
+     
+         <link document="m12395" target-id="sec2">Bayesian Networks</link> 
+       </note>
+
+     </para>
+
+
+  </content>
+
+              <bib:file>
+    	      <bib:entry id="derisi">
+    		<bib:article>
+    		  <bib:author>DeRisi, J., Iyer, V., and Brown, P. </bib:author>
+    		  <bib:title>Exploring the metabolic and genetic control of gene expression on a genomic
+scale. 
+</bib:title>
+    		  <bib:journal>Science</bib:journal>
+    		  <bib:year> 1997 </bib:year>
+                      <bib:volume>282</bib:volume>
+    		  <bib:pages>699–705</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+              <bib:entry id="gartel">
+    		<bib:article>
+    		  <bib:author>Gartel, A.L., Tyner, A.L. </bib:author>
+    		  <bib:title>Transcriptional Regulation of the
+p21(WAF1/CIP1) Gene
+</bib:title>
+    		  <bib:journal>Experimental Cell Research</bib:journal>
+    		  <bib:year> 1999 </bib:year>
+                      <bib:volume>246(2)</bib:volume>
+    		  <bib:pages>280-289</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+  	      <bib:entry id="huang">
+    		<bib:article>
+    		  <bib:author>Huang, S.</bib:author>
+    		  <bib:title>Gene expression profiling, genetic networks, and cellular
+states: an integrating concept for tumorigenesis and drug discovery.
+</bib:title>
+    		  <bib:journal>Journal of Molecular Medicine</bib:journal>
+    		  <bib:year> 1999</bib:year>
+                      <bib:volume>77</bib:volume>
+    		  <bib:pages>469-480</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+    
+
+    
+    	      <bib:entry id="iyer">
+    		<bib:article>
+    		  <bib:author>Iyer, V., Eisen, M., Ross, D., Schuler, G., Moore, T., Lee, J., Trent, J., Staudt, L., Hudson, J., Boguski, M., Lashkari,
+D., Shalon, D., Botstein, D., and Brown, P</bib:author>
+    		  <bib:title>The transcriptional program in the response of human fibroblasts
+to serum. 
+</bib:title>
+    		  <bib:journal>Science</bib:journal>
+    		  <bib:year>1999</bib:year>
+                      <bib:volume>283</bib:volume>
+    		  <bib:pages>83–87</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+ 	      <bib:entry id="kauffman1">
+    		<bib:article>
+    		  <bib:author>Kauffman, S.A.</bib:author>
+    		  <bib:title>Metabolic stability and epigenesis in randomly constructed
+genetic nets
+</bib:title>
+    		  <bib:journal>Journal of Theoretical Biology</bib:journal>
+    		  <bib:year> 1969 </bib:year>
+                      <bib:volume>22</bib:volume>
+    		  <bib:pages>437-
+467
+</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+  	      <bib:entry id="kauffman2">
+    		<bib:article>
+    		  <bib:author>Kauffman, S.A.</bib:author>
+    		  <bib:title>Homeostasis and differentiation in random genetic
+control networks
+</bib:title>
+    		  <bib:journal>Nature</bib:journal>
+    		  <bib:year> 1969 </bib:year>
+                      <bib:volume>224</bib:volume>
+    		  <bib:pages>177-178</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+  	      <bib:entry id="kauffman3">
+    		<bib:article>
+    		  <bib:author>Kauffman, S.A., Glass, K. </bib:author>
+    		  <bib:title>The logical analysis of continuous, nonlinear biochemical control networks</bib:title>
+    		  <bib:journal>Journal of Theoretical Biology</bib:journal>
+    		  <bib:year> 1973 </bib:year>
+                      <bib:volume>39</bib:volume>
+    		  <bib:pages>103-129</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+	      <bib:entry id="kauffman4">
+    		<bib:article>
+    		  <bib:author>Kauffman, S.A.</bib:author>
+    		  <bib:title>The large scale structure and dynamics of genetic control circuits: an ensemble approach</bib:title>
+    		  <bib:journal>Journal of Theoretical Biology</bib:journal>
+    		  <bib:year> 1974 </bib:year>
+                      <bib:volume>44</bib:volume>
+    		  <bib:pages>167-190</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+  	      <bib:entry id="kauffman5">
+    		<bib:article>
+    		  <bib:author>Kauffman, S.A.</bib:author>
+    		  <bib:title>The origins of order: Self-organization and selection
+in evolution
+</bib:title>
+    		  <bib:journal>Oxford University Press, New York</bib:journal>
+    		  <bib:year> 1993 </bib:year>
+                </bib:article>
+    	      </bib:entry>
+
+
+
+   	      <bib:entry id="lochart">
+    		<bib:article>
+    		  <bib:author>Lockhart, D.J., Dong, H., Byrne, M.C., Follettie, M.T., Gallo, M.V., Chee, M.S., Mittmann, M., Want, C., Kobayashi,
+M., Horton, H., and Brown, E.L.</bib:author>
+    		  <bib:title>DNA expression monitoring by hybridization of high density oligonucleotide
+arrays. 
+</bib:title>
+    		  <bib:journal>Nature Biotechnology </bib:journal>
+    		  <bib:year> 1996 </bib:year>
+                      <bib:volume>14</bib:volume>
+    		  <bib:pages>1675–1680</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+              <bib:entry id="schneider">
+    		<bib:article>
+    		  <bib:author>Schneider, E., Montenarh, M., Wagner, P. </bib:author>
+    		  <bib:title>Regulation of CAK
+kinase activity by p53
+</bib:title>
+    		  <bib:journal>Oncogene</bib:journal>
+    		  <bib:year> 1998 </bib:year>
+                      <bib:volume>17</bib:volume>
+    		  <bib:pages>2733-2741</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+              <bib:entry id="shmulevich1">
+    		<bib:article>
+    		  <bib:author>Shmulevich, I., Zhang, W.</bib:author>
+    		  <bib:title>Binary Analysis and Optimization-
+Based Normalization of Gene Expression Data
+</bib:title>
+    		  <bib:journal>Bioinformatics</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>18(4)</bib:volume>
+    		  <bib:pages>555-565</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+              <bib:entry id="shmulevich2">
+    		<bib:article>
+    		  <bib:author>Shmulevich, I., Dougherty, R., Kim, S., Zhang, W. </bib:author>
+    		  <bib:title>Probabilistic
+Boolean Networks: A Rule-based Uncertainty Model for Gene Regulatory
+Networks
+</bib:title>
+    		  <bib:journal>Bioinformatics</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>18(2)</bib:volume>
+    		  <bib:pages>261-274</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+              <bib:entry id="shmulevich3">
+    		<bib:article>
+    		  <bib:author>Shmulevich, I., Dougherty, R., Zhang, W. </bib:author>
+    		  <bib:title>From Boolean to Probabilistic Boolean
+Networks as Models of Genetic Regulatory
+Networks</bib:title>
+    		  <bib:journal>proceeding of the IEEE</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>90(11)</bib:volume>
+    		  <bib:pages>1778-1792</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+
+
+
+  	      <bib:entry id="spellman">
+    		<bib:article>
+    		  <bib:author>Spellman, P., Sherlock, G., Zhang, M., Iyer, V., Anders, K., Eisen, M., Brown, P., Botstein, D., and Futcher, B. </bib:author>
+    		  <bib:title>Comprehensive identification of cell cycle-regulated genes of the yeast Saccharomyces cerevisiae by microarray
+hybridization. 
+</bib:title>
+    		  <bib:journal>Mol. Biol. Cell </bib:journal>
+    		  <bib:year> 1998 </bib:year>
+                      <bib:volume>9</bib:volume>
+    		  <bib:pages>3273–3297</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+  	      <bib:entry id="wen">
+    		<bib:article>
+    		  <bib:author>Wen, X., Furhmann, S., Micheals, G.S., Carr, D.B., Smith, S., Barker, J.L., and Somogyi, R. </bib:author>
+    		  <bib:title>Large-scale temporal
+gene expression mapping of central nervous system developmen</bib:title>
+    		  <bib:journal>Proc. Nat. Acad. Sci. USA </bib:journal>
+    		  <bib:year> 1998 </bib:year>
+                      <bib:volume>95</bib:volume>
+    		  <bib:pages>334–339</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+  	      <bib:entry id="wuensche">
+    		<bib:article>
+    		  <bib:author>Wuensche, A.</bib:author>
+    		  <bib:title>Genomic Regulation Modeled as a Network with Basins
+of Attraction
+</bib:title>
+    		  <bib:journal>Pacific Symposium on Biocomputing </bib:journal>
+    		  <bib:year> 1998 </bib:year>
+                      <bib:volume>3</bib:volume>
+    		  <bib:pages>89-102</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+           </bib:file>
+
+    
+
+  
+</document>

@@ -1,0 +1,131 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/">
+  <title>Oligonucleotide Arrays-Detailed Information</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0b9e5346-95e5-434b-b8fb-59f9214ad51e</md:uuid>
+</metadata>
+
+  <content>
+                   <section id="sec1">
+                   <title>Detailed Information on the Oligonucleotide Arrays.
+                   </title>
+
+
+                 <para id="par1">A core element of array design, the Perfect Match/Mismatch probe strategy , is universally applied to the production of GeneChip arrays. For each probe designed to be perfectly complementary to a target sequence, a partner probe is generated that is identical except for a single base mismatch in its center. These probe pairs, called the Perfect Match probe (PM) and the Mismatch probe (MM), allows the quantization and subtraction of signals caused by non-specific cross-hybridization(<link url="http://www.bioinformatica.unito.it/bioinformatics/AIRBB_courses/1stday/mas.5.0.pdf">further web presentation</link>). The difference in hybridization signals between the partners, as well as their intensity ratios, serves as indicators of specific target abundance.
+                 </para>
+                 <figure id="fig1"><title>GeneChip Expression Array Design</title>
+	<media id="idp8278544" alt=""><image src="../../media/oo_1.gif" mime-type="image/gif"/></media>
+	<caption>The Affymetrix GeneChip technology. There may be 5,000-20,000 probe sets per chip. The presence of messenger RNA (mRNA) is detected by a series of probe pairs that differ in only one nucleotide. Hybridization of fluorescent mRNA to these probes pairs on the chip  is detected  by laser scanning of the chip surface.
+ A probe set = 11-20 PM, MM pairs.
+                     </caption>
+</figure>
+
+                   <section id="sec_1">
+
+                 <para id="par2">Probe synthesis occurs in parallel, resulting in the addition of an A, C, T, or G nucleotide to multiple growing chains simultaneously. To define which oligonucleotide chains will receive a nucleotide in each step, photolithographic masks, carrying 18 to 20 square micron windows that correspond to the dimensions of individual features, are placed over the coated wafer. The windows are distributed over the mask based on the desired sequence of each probe.  When ultraviolet light is shone over the mask in the first step of synthesis, the exposed linkers become deprotected and are available for nucleotide coupling. Critical to this step is the precise alignment of the mask with the wafer before each synthesis step. The nucleotide attaches to the activated linkers, initiating the synthesis process. In the following synthesis step, another mask is placed over the wafer to allow the next round of deprotection and coupling. The process is repeated until the probes reach their full length, usually 25 nucleotides.
+                 </para>
+
+                 <figure id="fig2"><media id="idp902432" alt=""><image src="../../media/oo_2.gif" mime-type="image/gif"/></media>
+	<caption>Using technologies adapted from the semiconductor industry, GeneChip manufacturing begins with a 5-inch square quartz wafer <link url="http://www.affymetrix.com/index.affx">Affymetrix</link> . Initially the quartz is washed to ensure uniform hydroxylation across its surface. The wafer is placed in a bath of silane, which reacts with the hydroxyl groups of the quartz, and forms a matrix of covalently linked molecules. Each of these features harbors millions of identical DNA molecules. The silane film provides a uniform hydroxyl density to initiate probe assembly. Linker molecules, attached to the silane matrix, provide a surface that may be spatially activated by light.              
+                     </caption>
+</figure>
+
+      </section> 
+                   <section id="sec_2">
+                 <para id="par3"> Once the synthesis is completed, the wafers are deprotected, diced, and the resulting individual arrays are packaged in flow cell cartridges. Depending on the number of probe features per array, a single wafer can yield between 49 and 400 arrays. The manufacturing process ends with a comprehensive series of quality control tests.                
+                 </para>
+                 <para id="par4">The design and manufacture of GeneChip probe arrays are highly stereotyped and consistent, eliminating the need to make arrays in individual labs, thereby, significantly minimizing user setup time, and providing a higher degree of reproducibility between experiments. Taking advantage of these capabilities, researchers have used GeneChip probe arrays to study the regulation of gene expression associated with a wide variety of basic biological functions, including development, hormonal signaling, and circadian rhythms. Also, many studies have used GeneChip probe arrays to tackle disease. A rapidly growing area of application is cancer research, for instance, in which arrays have helped researchers discover new tumor classes, assign patient samples to known tumor classes, reveal cancer-related alterations in molecular pathways, predict clinical outcomes, and identify new drug targets( Shipp <emphasis>et al.,</emphasis>2002; Pomeroy <emphasis>et al.,</emphasis> 2002; Schadt <emphasis>et al.,</emphasis> 2001; Golub <emphasis>et al.,</emphasis> 1999; Lockhart <emphasis>et al.,</emphasis> 1996).
+                 </para>
+
+
+
+
+
+                 <figure id="fig3">
+	<media id="idm704288" alt=""><image src="../../media/oo_3.gif" mime-type="image/gif"/></media>
+	<caption>Standard eukaryotic gene expression assay <link url="http://www.affymetrix.com/index.affx">Affymetrix</link> . The basic concept behind the use of GeneChip arrays for gene expression is simple: labeled cDNA or cRNA targets derived from the mRNA of an experimental sample are hybridized to nucleic acid probes attached to the solid support. By monitoring the amount of label associated with each DNA location, it is possible to infer the abundance of each mRNA species represented. Although hybridization has been used for decades to detect and quantify nucleic acids, the combination of the miniaturization of the technology and the large and growing amounts of sequence information, have enormously expanded the scale at which gene expression can be studied. 
+
+               
+                     </caption>
+</figure>
+      </section> 
+      </section> 
+
+                   <section id="sec_4">
+       <para id="para_5">
+     </para>
+                   </section> 
+
+       <para id="par5">
+        <note type="see also" id="idp7311664"><label>See also</label>
+
+         <link document="m12385" target-id="sec1">data analysis
+         </link> 
+       </note>
+       <note type="see also" id="idp7187744"><label>See also</label>
+     
+         <link document="m12387" target-id="sec1">cdna arrays</link> 
+       </note>
+
+     </para>
+          
+
+
+  </content>
+           <bib:file>
+    	      <bib:entry id="golub">
+    		<bib:article>
+    		  <bib:author>Golub, T.R., Slonim, D.K., Tamayo, P., Huard, C., Gaasenbeek, M., Mesirov, J.P., Coller, H., Loh, M.L., Downing, J.R., Caligiuri, M.A., et al.,</bib:author>
+    		  <bib:title>Molecular classification of cancer: class discovery and class prediction by gene expression monitoring</bib:title>
+    		  <bib:journal>Science</bib:journal>
+    		  <bib:year> 1999</bib:year>
+                      <bib:volume>286</bib:volume>
+    		  <bib:pages>531 - 537</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+    	      <bib:entry id="lockhart">
+    		<bib:article>
+    		  <bib:author>Lockhart, D.J., Dong, H., Byrne, M.C., Follettie, M.T., Gallo, M.V., Chee, M.S., Mittmann, M., Wang, C., Kobayashi, M., Horton, H., Brown, E.L.</bib:author>
+    		  <bib:title>Expression monitoring by hybridization to high-density oligonucleotide arrays</bib:title>
+    		  <bib:journal>Nat Biotechnol </bib:journal>
+    		  <bib:year> 1996</bib:year>
+                      <bib:volume>14</bib:volume>
+    		  <bib:pages>1675 - 1680</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+    	      <bib:entry id="pomeroy">
+    		<bib:article>
+    		  <bib:author>Pomeroy, S.L., Tamayo, P., Gaasenbeek, M., Sturla, L.M., Angelo, M., McLaughlin, M.E., Kim, J.Y., Goumnerova, L.C., Black, P.M., Lau, C., et al.: </bib:author>
+    		  <bib:title>Prediction of central nervous system embryonal tumor outcome based on gene expression</bib:title>
+    		  <bib:journal>Nature </bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>415</bib:volume>
+    		  <bib:pages>436 - 442</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+    	      <bib:entry id="schadt">
+    		<bib:article>
+    		  <bib:author>Schadt, E.E., Li, C., Ellis, B., Wong, W.H. </bib:author>
+    		  <bib:title>Feature extraction and normalization algorithms for high-density oligonucleotide gene expression array data</bib:title>
+    		  <bib:journal>J Cell Biochem Suppl </bib:journal>
+    		  <bib:year>2001</bib:year>
+                  <bib:pages>120 - 125</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+    	      <bib:entry id="shipp">
+    		<bib:article>
+    		  <bib:author>Shipp, M.A., Ross, K.N., Tamayo, P., Weng, A.P., Kutok, J.L., Aguiar, R.C., Gaasenbeek, M., Angelo, M., Reich, M., Pinkus, G.S., et al.: </bib:author>
+    		  <bib:title>Diffuse large B-cell lymphoma outcome prediction by gene-expression profiling and supervised machine learning</bib:title>
+    		  <bib:journal>Nat Med 2002</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>8</bib:volume>
+    		  <bib:pages>68 - 74</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+            </bib:file>
+
+  
+</document>

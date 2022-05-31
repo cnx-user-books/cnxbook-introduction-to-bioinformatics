@@ -1,0 +1,81 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Dogma of Molecular Biology</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b6e9c375-5cf0-4b99-b629-bdbdaa33c1c7</md:uuid>
+</metadata>
+
+  <content>
+     <section id="sec1">
+      <title>1. Introduction</title>
+    <para id="par1">Thousands of <link document="m12371" target-id="gene">genes</link> are being discovered for the first time by sequencing the <link document="m12371" target-id="genome">genomes</link> of model organisms, a reminder that much of the natural world remains to be explored at the molecular level. <link document="m12371" target-id="microarray">DNA microarrays</link> provide a natural vehicle for this exploration. The model organisms are the first for which comprehensive genome-wide surveys of gene expression patterns or function are possible. The results should be viewed as <link document="m12371" target-id="genetic_map">maps</link> that reflect the order and logic of the genetic program, rather than the physical order of genes on <link document="m12371" target-id="chromosome">chromosomes</link>. Exploration of the genome using DNA microarrays and other genome-scale technologies should narrow the gap in our knowledge of gene function and molecular biology.
+        
+
+       </para> 
+     </section>
+
+      <section id="sec2">
+ <title>2. Dogma of Molecular Biology </title>
+
+                  <para id="par2"><link document="m12371" target-id="dna">Deoxyribonucleic acid  (DNA)</link>
+is the elementary template carrying essential genetic code for every living organism. In bacteria and other simple cell organisms, DNA is distributed more or less throughout the cell. In the complex cells that make up plants, animals and in other multi-cellular organisms, most of the DNA is found in the chromosomes, which are located in the cell <link document="m12371" target-id="nucleus">nucleus</link>. The energy-generating organelles known as chloroplasts and mitochondria also carry DNA, as do many viruses. Pieces of DNA are pairs of molecules, which entwine like vines to form a double helix. DNA strands are composed of four <link document="m12371" target-id="nucleotide">nucleotide</link> subunits. These are <link document="m12371" target-id="adenine">adenine (A)</link>,
+<link document="m12371" target-id="thymine">thymine (T)</link>,
+<link document="m12371" target-id="cytosine">cytosine (C)</link>and
+<link document="m12371" target-id="guanine">guanine (G)</link>.
+ Each base forms hydrogen bonds readily to only one other -- A to T and C to G. the entire nucleotide sequence of each strand is complementary to that of the other, and when separated, each may act as a template with which to 
+<link document="m12371" target-id="replication">replicate</link> the other.The information contained by the DNA strand allows for development and control of any processes taking place in living organism over its lifetime span, not only on the cellular, but also on the whole system level. The general structure of the DNA is depicted on the 
+<link target-id="fig1">Figure1.</link>
+
+   </para> 
+
+               <figure id="fig1"><title>The DNA structure.</title>
+	<media id="idp1987776" alt=""><image src="../../media/dna.gif" mime-type="image/gif"/></media>
+	<caption>The DNA structure.
+	       </caption>
+</figure>
+
+
+     <section id="sec_1">
+
+  <para id="par3"> 
+In order to read the information contained in DNA, first, their functional units, genes are transcribed during 
+<link document="m12371" target-id="transcription">transcription</link> into 
+<link document="m12371" target-id="mrna">messenger ribonucleic acid (mRNA)</link>), which is based on the complementary DNA strand. mRNA molecules serve as  templates for the protein synthesis; they are transported to the 
+<link document="m12371" target-id="cytoplasm">cytoplasm</link> and repeatedly read by the 
+<link document="m12371" target-id="ribosome">ribosomes</link>. Before the mRNA is ready to be 
+<link document="m12371" target-id="translation">translated</link>, it undergoes several processes i.e. splicing, which means that the pre-mRNA is modified to remove certain stretches of non-coding sequences called
+<link document="m12371" target-id="intron">introns</link>. The stretches that remain includ protein-coding sequences and are called 
+<link document="m12371" target-id="exon">exons</link>. Finally, consecutive three nucleotide bases of the mRNA sequence are translated into corresponding
+<link document="m12371" target-id="amino acid">amino acids</link>   and linked together to form protein chains. 
+<link document="m12371" target-id="protein">Proteins</link>  are required for the structure, function, and regulation of the cells, tissues and organs. Each protein has its unique functions. The process of reading content of a gene is depicted in <link target-id="vertfig">Figure2.</link> 
+     </para> 
+    
+      <para id="par4"> 
+In order to understand the role and function of the genes one needs the complete information about their mRNA transcripts and proteins. Unfortunately, exploring the protein functions is very difficult due to their unique 3-dimentional complicated structure and a shortage of efficient technologies. To overcome this difficulty one may concentrate on the mRNA molecules produced by the genes of interest 
+<link document="m12371" target-id="expression">(gene expression)</link>  and use this information to investigate the functional roles of the genes. This idea was a motivation for the development of microarrays technique, as a method allowing for studying the interaction between thousands of genes based on their mRNA transcript level.  
+      </para> 
+          </section>
+     <section id="sec_2">
+
+               <figure id="fig2"><title>The Central Dogma of Molecular Biology. </title>
+	<media id="idp1560592" alt=""><image src="../../media/dogma_1.gif" mime-type="image/gif"/></media>
+		<caption>Block diagram representation
+
+	       </caption>
+               </figure>
+               <figure id="fig3">
+	<media id="idp3336976" alt=""><image src="../../media/dogma_2.gif" mime-type="image/gif"/></media>
+		<caption>Cellular representation</caption>
+               </figure>
+          </section>
+
+     <section id="sec_3">
+      <para id="par5">
+	   <note type="SEE ALSO" id="idm6071584"><label>SEE ALSO</label><link url="http://128.32.135.2/~sandrine/presentations.html">http://128.32.135.2/~sandrine/presentations.html</link> 
+</note>
+	</para>
+
+          </section>
+
+     </section>
+  </content>
+  
+</document>

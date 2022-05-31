@@ -1,0 +1,44 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Affymetrix Chip-Basic Concepts</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>cee10c42-7def-4e05-b27e-5cc9b9c822b7</md:uuid>
+</metadata>
+
+  <content>
+         <section id="sec1">
+          <title>Oligonucleotide arrays. </title>
+                               <section id="sec2">
+                               <title>4.2.1.Overview </title>
+                               
+               <para id="par1">The oligonucleotide arrays, developed by the
+<link url="http://www.affymetrix.com/index.affx">Affymetrix Company</link> , are a new approach in microarray technology, based on hybridization to small, high-density arrays containing tens of thousands of synthetic oligonucleotides. The arrays are designed based on sequence information alone and are synthesized in situ using a combination of photolithography and oligonucleotide chemistry. RNAs present at a frequency of 1:300,000 are unambiguously detected, and detection is quantitative over more than three orders of magnitude. This approach provides a way to use directly the growing body of sequence information for highly parallel experimental investigations. Because of the combinatorial nature of the chemistry and the ability to synthesize small arrays containing hundreds of thousands of specifically chosen oligonucleotides, the method is readily scalable to the simultaneous monitoring of tens of thousands of genes. The Affymetrix integrated GeneChip arrays contain up to 500,000 unique probes corresponding to tens of thousands of gene expression measurements.  
+               </para>
+               <para id="par2">Affymetrix manufactures arrays monitor the global activities of genes in yeast, Arabidopsis, Drosophila, mice, rats, and humans. In addition, custom expression arrays can be designed for other model organisms, proprietary sequences, or specific subsets of known genes. For human arrays, expressed sequences from databases are collected and clustered into groups of similar sequences. Using clusters as a starting point, sequences are further subdivided into subclusters representing distinct transcripts. This categorization process involves alignment to the human genome, which reveals 
+<link document="m12371" target-id="splicing">splicing</link> and polyadenylation variants.
+               </para>
+                 </section>
+         <section id="sec_1">
+               <figure id="fig1"><title>Oligonucleotide chips.</title>
+	<media id="idm15511600" alt=""><image src="../../media/oligo.gif" mime-type="image/gif"/></media>
+	<caption>A typical experiment with an oligonucleotide chip; preparation of sample for GeneChip arrays. Messenger RNA (mRNA) is extracted from the cell and converted to cDNA. It then undergoes amplification and labeling step before fragmentation and hybridization to 25-mer oligos on the surface to the chip. After washing of unhybridized material, the chip is scanned in a confocal laser scanner and the image analyzed by computer.
+                     </caption>
+</figure>
+
+                 </section>
+     </section>
+        <para id="par3">
+        <note type="see also" id="idm2320640"><label>See also</label>
+
+         <link document="m12388" target-id="sec1">Oligonucleotide arrays - detailed informations
+         </link> 
+       </note>
+       <note type="see also" id="idm15937120"><label>See also</label>
+     
+      <link document="m12384" target-id="sec1">cdna arrays</link> 
+       </note>
+
+     </para>
+
+
+  </content>
+  
+</document>

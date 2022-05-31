@@ -1,0 +1,119 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/">
+  <title>cDNA-Basic Concept</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2351d969-14bc-4cb2-9de6-90cec9b304bd</md:uuid>
+</metadata>
+
+  <content>
+                                <section id="sec1">
+                               <title>cDNA-Basic Concept </title>
+ 
+                              <para id="par1">
+<link url="http://www.wp.pl"/>
+Recently, several types of the 
+<link document="m12371" target-id="microarray">DNA microarrays</link> were introduced. Applications of microarrays range from the study of gene expression in yeast( Lashkari <emphasis>et al.,</emphasis> 1997) under different environmental stress conditions to the comparison of gene expression profiles for tumors from cancer patients (Golub <emphasis>et al.,</emphasis> 1999). The first approach is to use the chemically synthesized form of DNA called <link document="m12371" target-id="cdna">COMPLEMENTARY DNA (cDNA)</link>, which contains only coding part of the sequence, complementary to its corresponding mRNA transcript. Microarrays have a form of microscope slides containing hundreds to thousands of immobilized DNA samples that are <link document="m12371" target-id="hybridization">hybridized</link> in a manner very similar to the <link document="m12371" target-id="northern_blot">Northern</link> (Alwine <emphasis>et al.,</emphasis> 1977)and <link document="m12371" target-id="southern_blot">Southern blot</link> (Southern, 1975).
+The main function of a microarray is to detect the level of mRNA transcript of genes of interest. The plates are incubated in the solution containing genetic material under consideration. The mRNA transcripts floating in the solution would hybridize to their complementary cDNA, previously placed on the microarray chip. Since the cDNA on the chip is fluorescently labeled, every spot will emit a light in the ultraviolet environment, intensity of which depends on the amount of hybridized mRNA (Schena <emphasis>et al.,</emphasis> 1995). The differentiation of the cDNA’s ultraviolet dye allows the comparison of the gene expression under different experimental conditions (case- control studies). 
+The preparation of the microarray for case-control study is schematically depicted on <link target-id="fig1">Figure 1.</link> Initial data obtained from DNA microarrays are in the form of scanned images. Coding the gene expression by means of colors can be helpful for building d <link document="m12371" target-id="genetic_map">genetic maps</link> and graphical data processing. Expression gene map is presented in the form of a table; the rows of which corresponds to the consecutive genes and columns represent different samples, for example under multiple experimental conditions or for different patients. 
+More informations available at: <link url="http://www.bioconductor.org/">Bioconductors</link>, follow link to <emphasis>training</emphasis> .
+
+
+
+                               </para>
+
+
+      <figure id="fig1"><title>The spotted array technology.</title>
+	<media id="idm3673696" alt=""><image src="../../media/spot.gif" mime-type="image/gif"/></media>
+	<caption>Overview of Procedures for Preparing and Analyzing Microarrays of Complementary DNA (cDNA). As shown in Panel A, reference RNA and tumor RNA is labeled by reverse transcription with different fluorescent dyes (green for the reference cells and red for the tumor cells) and hybridized to a cDNA microarray containing robotically printed cDNA clones. As shown in Panel B, the slides are scanned with a confocal laser-scanning microscope, and color images are generated for each hybridization with RNA from the tumor and reference cells. Genes up-regulated in the tumors appear red, whereas those with decreased expression appear green. Genes with similar levels of expression in the two samples appear yellow. Genes of interest are selected on the basis of the differences in the level of expression by known tumor classes (e.g., BRCA1-mutation–positive and BRCA2-mutation–positive). Statistical analysis determines whether these differences in the gene-expression profiles are greater than would be expected by chance. As shown in Panel C, the differences in the patterns of gene expression between tumor classes can be portrayed in the form of a color-coded plot, and the relations between tumors can be portrayed in the form of a multidimensional-scaling plot. Tumors with similar gene-expression profiles cluster close to one another in the multidimensional-scaling plot.
+     </caption>
+</figure>
+
+</section>
+        <para id="par2">
+        <note type="see also" id="idm9887216"><label>See also</label>
+
+         <link document="m12385" target-id="sec1">cDNA arrays - detailed informations.
+         </link> 
+       </note>
+       <note type="see also" id="idp3674656"><label>See also</label>
+     
+         <link document="m12387" target-id="sec1">Oligonucleotide arrays.</link> 
+       </note>
+
+     </para>
+
+
+                 
+       
+  </content>
+    
+            <bib:file>
+
+   	      <bib:entry id="alwine">
+    		<bib:article>
+    		  <bib:author>Alwine, J.C., Kemp, D.J., Stark, G.R.  </bib:author>
+    		  <bib:title>Method for detection of specific RNAs in agarose gels by transfer to diazobenzyloxymethyl-paper and hybridization with DNA probes</bib:title>
+    		  <bib:journal> Proc. Natl. Acad. Sci. U. S. A.</bib:journal>
+    		  <bib:year> 1977</bib:year>
+                      <bib:volume>74 </bib:volume>
+    		  <bib:pages>  5350–5354</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+
+   	      <bib:entry id="golub">
+    		<bib:article>
+    		  <bib:author> Golub, T.R., Slonim, D.K., Tamayo, P., Huard, C., Gaasenbeek, M., Mesirov, J.P., Coller, H., Loh, M.L., Downing, J.R., Caligiuri, M., Abloomfield, C.D., Lander, E.S.
+</bib:author>
+    		  <bib:title>Molecular classification of cancer: Class discovery and class prediction by gene expression monitoring</bib:title>
+    		  <bib:journal>Science </bib:journal>
+    		  <bib:year> 1999</bib:year>
+                      <bib:volume>286</bib:volume>
+    		  <bib:pages>531–537</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+    	      <bib:entry id="lashkari">
+    		<bib:article>
+    		  <bib:author>Lashkari, D.A., DeRisi, J.L., McCusker, J.H., Namath, A.F., Gentile, C., Hwang, S.Y., Brown, P.O., Davis, R.W.</bib:author>
+    		  <bib:title>Yeast microarrays for genome wide parallel genetic and gene expression analysis</bib:title>
+    		  <bib:journal>Proc. Natl. Acad. Sci. U. S. A. </bib:journal>
+    		  <bib:year> 1997</bib:year>
+                      <bib:volume>94</bib:volume>
+    		  <bib:pages>13057–13062</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+   	      <bib:entry id="schena">
+    		<bib:article>
+    		  <bib:author>Schena, M., Shalon, D., Davis, R.W., Brown, P.O. </bib:author>
+    		  <bib:title>Quantitative monitoring of gene expression patterns with a complementary DNA microarray</bib:title>
+    		  <bib:journal>Science </bib:journal>
+    		  <bib:year> 1995</bib:year>
+                  <bib:volume>270</bib:volume>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+
+   	      <bib:entry id="southern">
+    		<bib:article>
+    		  <bib:author> Southern, E.M.</bib:author>
+    		  <bib:title>) Detection of specific sequences among DNA fragments separated by gel electrophoresis</bib:title>
+    		  <bib:journal>J. Mol. Biol. </bib:journal>
+    		  <bib:year> 1975</bib:year>
+                      <bib:volume>98</bib:volume>
+    		  <bib:pages>503–517</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+
+
+
+            </bib:file>
+    
+    	
+  
+</document>

@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:bib="http://bibtexml.sf.net/">
+  <title>cDNA-Detailed Information</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>33ffce49-19e3-4309-a13b-88a8e87cbefd</md:uuid>
+</metadata>
+
+  <content>
+                   <section id="sec1">
+                   <title>Detailed information on the cDNA technology
+                   </title>
+
+                   <para id="par1">To prepare microarrays, glass or nylon micro plates are used, onto which thousands of single stranded pieces of DNA of length of tens of nucleotides are placed (<link url="http://array.ucsd.edu/pubs/99112701.pdf">Cheung </link> <emphasis>et al.,</emphasis>1999). Each spot on the plate corresponds to a particular gene. The special computer–controlled three–axis robots generate high–density, gridded arrays of cDNA. <link target-id="fig1">Figure 1 a, b, c</link> presents an example of a workstation for producing a microarrays. 
+<link target-id="fig1">Figure 1 d</link> depicts a scanner used for reading a microarray with genetic material introduced during the course of an experiment. 
+                   </para>
+                 <figure id="fig1"><title>The microarray robot.</title>
+	<media id="idp11563120" alt=""><image src="../../media/robot_1.gif" mime-type="image/gif"/></media>
+	<caption>. 1a, The Pennsylvania University’s microarray robot (Cheung <emphasis>et al.,</emphasis>1999). The X-, Y-, Z- axes are labesled 1, 2, and 3,respectively. The key component of the arrayer is the print-head, containing pens (4). Microscope glass slides are placed on the slide station (5). Samples are prepared and arrayed from 96-well sample plates (6). The pins are cleaned between sample acquisitions at the washing (7) and drying (8) stations. b, AECOM microarray robot. The table configuration shown contains 160 slides with four microtitre plates, two wash stations and the dryer. The print-head (c) shows four of the possible twelve pen tips in use. d, AECOM laser scanner. Visible are the optical table, power supplies for lasers and PMT cooling, the Ludl stage, and lasers. The 20´microscope objective is inside the ludlstage while lenses, mirrors and otheroptics are enclosed in the metal casing. PMTs are to the right and outside the photo.                    
+                     </caption>
+</figure>
+                   <section id="sec_1">
+                 <para id="par2"> In a single reaction, two different probes can be labelled with different colors, and simultaneously incubated with a microarray. Robots (arrayers) are required to place (or array) a large number of probes onto slides. The AECOM arrayer generates high–density, gridded arrays of cDNA, genomic DNA or similar biological material on glass surfaces. Its principal components are a computer–controlled three–axis robot and a unique pen tip assembly. The wash stations are stationary basins containing distilled water that is replaced after every two-microtitre plate. When the pen tips are immersed, the robot shakes the pen assembly back and forth to enhance cleaning. A computer–controlled water bath sonicator and/or flowing water bath could be substituted. The dryer is essentially a computer–controlled wet/dry vacuum cleaner and an adapter fitted with restricting inlet holes into which the pen tips are inserted. Drying is accomplished by the rapid airflow around the tips and the partial vacuum this creates. 
+                 </para>
+                 <para id="par3">After DNA samples are arrayed onto slides, they are air–dried. The samples are immobilized by ultraviolet (UV)–irradiation to form covalent bonds between the thymidine residues in the DNA and the positively charged amine groups on the silane slides. After crosslinking, excess DNA molecules are removed by washing the arrays at room temperature and arrayed samples are denatured in water before hybridization. There are many methods for hybridizing targets and probes; they differ with respect to the solvents and temperatures used. The<link target-id="fig2">Figure 2</link>  presents the typical process of the nucleic acid hybridization.  
+                 </para>
+
+                 <para id="par4"> Once extracted from the two populations, the RNA samples are typically labeled with fluorescent dyes in order to generate probes. The commercial cyanine dyes Cy3 and Cy5 are commonly used in labeling reactions. Fluorescently labeled probes can be prepared by several different methods including direct or indirect cDNA labeling, (Hegde <emphasis>et al.,</emphasis> 2000; Richter<emphasis>et al.,</emphasis> 2002; Van Gelder <emphasis>et al.,</emphasis> 1990). After cDNA synthesis, a fluorescent cascade molecule with hundreds of dye molecules per complex is hybridized to the cDNA. The labeled probes prepared from the two RNA sources are co-hybridized to the same DNA chip. Important parameters include hybridization temperature, length of hybridization, concentration of salts, pH of the solution, and the presence or absence of denaturants such as formaldehyde in the hybridization buffer. The hybridized array is typically scanned with a system that uses lasers as a source of excitation light and photomultiplier tubes as detectors. This system is capable of differentiating the fluorescently labeled probes.               
+                  </para>
+
+                   </section>
+                   <section id="sec_2">
+                  <figure id="fig2"><title>The nucleic acid hybridization.    </title>
+	<media id="idp6889520" alt=""><image src="../../media/nucleic_1.gif" mime-type="image/gif"/></media>
+	<caption>The nucleic acid hybridization. 
+                     </caption>
+</figure>
+       
+
+
+          </section>
+
+          </section>
+                   <section id="sec_5">
+        <para id="para_5">
+        </para>
+                   </section>
+        <para id="par5">
+        <note type="see also" id="idp1575984"><label>See also</label>
+
+         <link document="m12387" target-id="sec1">Oligonucleotide arrays.
+         </link> 
+       </note>
+       <note type="see also" id="idp11757456"><label>See also</label>
+     
+         <link document="m12384" target-id="sec1">cDNA arrays - basic Concepts</link> 
+       </note>
+
+     </para>
+
+
+  </content>
+            <bib:file>
+    	      <bib:entry id="cheung">
+    		<bib:article>
+    		  <bib:author>Cheung, V.G., Morley, M., Aguilar, F., Massimi, A., Kucherlapati, R., Childs, G.</bib:author>
+    		  <bib:title>Making and reading microarrays</bib:title>
+    		  <bib:journal>nature genetics supplement</bib:journal>
+    		  <bib:year> 1999</bib:year>
+                      <bib:volume>21</bib:volume>
+    		  <bib:pages>15-19</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+              <bib:entry id="hegde">
+    		<bib:article>
+    		  <bib:author>Hegde, P., Qi, R., Abernathy, K., Gay, C., Dharap, S., Gaspard, R., Hughes, J.E., Snesrud, E., Lee, N., Quackenbush, J. </bib:author>
+    		  <bib:title>A concise guide to microarray analysis</bib:title>
+    		  <bib:journal>BioTechniques</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>29</bib:volume>
+    		  <bib:pages>548–562</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+                <bib:entry id="richter">
+    		<bib:article>
+    		  <bib:author>Richter, A., Schwager, C., Hentze, S.,  Ansorge, W., Hentze, M.W., Muckenthaler, M. </bib:author>
+    		  <bib:title>Comparison of fluorescent tag DNA labeling methods used for expression analysis by DNA microarrays</bib:title>
+    		  <bib:journal>BioTechniques</bib:journal>
+    		  <bib:year>2002</bib:year>
+                      <bib:volume>33</bib:volume>
+    		  <bib:pages>620–630</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+                <bib:entry id="van_gelder">
+    		<bib:article>
+    		  <bib:author>Van Gelder, R.N., von Zastrow, M.E., Yool, A., Dement, W. C., Barchas, J.D., Eberwine, J.H. </bib:author>
+    		  <bib:title>Amplified RNA synthesized from limited quantities of heterogenous cDNA</bib:title>
+    		  <bib:journal> Proc. Natl. Acad. Sci. U. S. A.</bib:journal>
+    		  <bib:year>1990</bib:year>
+                      <bib:volume>87</bib:volume>
+    		  <bib:pages>1663–1667</bib:pages>
+    		</bib:article>
+    	      </bib:entry>
+
+            </bib:file>
+
+  
+</document>
