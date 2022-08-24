@@ -1,3 +1,98 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10240</md:content-id>  <md:title>Introduction to Bioinformatics</md:title>      <md:license url="http://creativecommons.org/licenses/by/1.0">Creative Commons Attribution License 1.0</md:license>  <md:language>en</md:language>        <md:uuid>0a6bf853-9543-444d-9bd8-3b3adfac7f14</md:uuid>
-<md:slug>introduction-to-bioinformatics</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Biological Background</md:title>                                <col:content>                                  <col:subcollection>        <md:title>Dogma of Molecular Biology</md:title>                                <col:content>                    <col:module document="m12382"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Gene Regulatory Networks</md:title>                                <col:content>                    <col:module document="m12383"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Microarrays</md:title>                                <col:content>                                  <col:subcollection>        <md:title>cDNA Arrays</md:title>                                <col:content>                    <col:module document="m12384"/>                            <col:module document="m12385"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Oligonucleotide Arrays</md:title>                                <col:content>                    <col:module document="m12387"/>                            <col:module document="m12388"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Data Analysis</md:title>                                <col:content>                    <col:module document="m12389"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Gene Networks</md:title>                                <col:content>                    <col:module document="m12394"/>                            <col:module document="m12395"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Microarray</md:title>                                <col:content>                                  <col:subcollection>        <md:title>Normalisation</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Data Analysis</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Differential Expressions</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Classification (Clustering)</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Networks</md:title>                                <col:content>                  </col:content>      </col:subcollection>            </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Publications/References</md:title>                                <col:content>                                  <col:subcollection>        <md:title>Glossary</md:title>                                <col:content>                    <col:module document="m12371"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course" authors="Ewa Paszek">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10240</md:content-id>
+    <md:title>Introduction to Bioinformatics</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/1.0">Creative Commons Attribution License 1.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>0a6bf853-9543-444d-9bd8-3b3adfac7f14</md:uuid>
+    <md:slug>introduction-to-bioinformatics</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Biological Background</md:title>
+      <col:content>
+        <col:subcollection>
+          <md:title>Dogma of Molecular Biology</md:title>
+          <col:content>
+            <col:module document="m12382"/>
+          </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Gene Regulatory Networks</md:title>
+          <col:content>
+            <col:module document="m12383"/>
+          </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Microarrays</md:title>
+          <col:content>
+            <col:subcollection>
+              <md:title>cDNA Arrays</md:title>
+              <col:content>
+                <col:module document="m12384"/>
+                <col:module document="m12385"/>
+              </col:content>
+            </col:subcollection>
+            <col:subcollection>
+              <md:title>Oligonucleotide Arrays</md:title>
+              <col:content>
+                <col:module document="m12387"/>
+                <col:module document="m12388"/>
+              </col:content>
+            </col:subcollection>
+            <col:subcollection>
+              <md:title>Data Analysis</md:title>
+              <col:content>
+                <col:module document="m12389"/>
+              </col:content>
+            </col:subcollection>
+          </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Gene Networks</md:title>
+          <col:content>
+            <col:module document="m12394"/>
+            <col:module document="m12395"/>
+          </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Microarray</md:title>
+      <col:content>
+        <col:subcollection>
+          <md:title>Normalisation</md:title>
+          <col:content>                  </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Data Analysis</md:title>
+          <col:content>                  </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Differential Expressions</md:title>
+          <col:content>                  </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Classification (Clustering)</md:title>
+          <col:content>                  </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Networks</md:title>
+          <col:content>                  </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Publications/References</md:title>
+      <col:content>
+        <col:subcollection>
+          <md:title>Glossary</md:title>
+          <col:content>
+            <col:module document="m12371"/>
+          </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
